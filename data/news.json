@@ -1,0 +1,27 @@
+[
+    {
+        "date": "12/2024",
+        "text": "I am co-organizing an <a href=\"https://verifai-workshop.github.io/\">ICLR Workshop</a> on bridging formal (and semi-formal) verification techniques and scale-driven foundation models!"
+    },
+    {
+        "date": "11/2024",
+        "text": "I completed my Qualifying Exams and advanced to Candidacy!"
+    },
+    {
+        "date": "09/2024",
+        "text": "I presented our group's work at the <a href=\"https://sam.gov/opp/0399474725314fd58f34bc29849ce305/view/\">DARPA TIAMAT</a> meeting in Indianapolis, Indiana."
+    },
+    {
+        "date": "02/2024",
+        "text": "I presented my work on LTL-guided Reinforcement Learning at the <a href=\"https://www.darpa.mil/research/programs/assured-neuro-symbolic-learning-and-reasoning\">ANSR Seminar</a>."
+    },
+    
+    {
+        "date": "08/2023",
+        "text": "I attended the <a href=\"https://afresearchlab.com/events/ndseg-fellowship-conference-2023/\">NDSEG Conference</a> in San Antonio, Texas."
+    },
+    {
+        "date": "07/2023",
+        "text": "I attended ICML in Honolulu to present our works on Multi-Agent RL and active learning for formal specifications!"
+    }
+]

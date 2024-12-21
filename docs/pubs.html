@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ameesh Shah</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Ameesh's personal website. Ph.D. Student at UC Berkeley researching at the intersection of formal methods and machine learning.">
+    <meta name="author" content="Ameesh Shah">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="light.css" id="theme-link">
+    <link rel="shortcut icon" type="image/png" href="./images/lethimcook.png" />
+    
+</head>
+
+<body>
+<header><div id="scroller"></div>
+<label class="switch-mode">
+    <input type="checkbox" id="mode">
+    <span class="slider round"></span>
+</label>
+<script>window.onscroll = function() {scroller()};
+function scroller() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  // scrolled should be between 0 and 100
+  scrolled = Math.min(100, Math.max(0, scrolled));
+  document.getElementById("scroller").style.width = scrolled + "%";
+}</script>
+<script>const btn = document.querySelector(".switch-mode");
+const theme = document.querySelector("#theme-link");
+
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    theme.href = "dark.css";
+    document.getElementById("mode").checked = true;
+}
+
+btn.addEventListener("change", function() {
+  // Swap out the URL for the different stylesheets
+  if (document.getElementById("mode").checked) {
+    theme.href = "dark.css";
+  } else {
+    theme.href = "light.css";
+  }
+});</script>
+</header>
+<div class="content">
+<div class="section">
+<h1>Publications <span class="more"><a href="./index.html">Ameesh Shah</a></span></h1>
+<div class="hbar"></div>
+<div id="publications">
+<h2 id="Conference Paperspublications">Conference Papers</h2><div class="paper">
+<div class="paper-flex">
+<div class="paper-conference">
+<div class="bigscreen"><small><a href="https://aamas2025.org/">AAMAS '25</a></small></div><div class="smallscreen"><a href="https://aamas2025.org/">AAMAS '25</a></div>
+</div>
+<div class="paper-details">
+<div class="paper-title">
+Learning Symbolic Task Decompositions for Multi-agent Teams
+</div>
+<div class="paper-authors">
+A. Shah,
+<a href="https://niklaslauffer.github.io/">N. Lauffer</a>,
+T. Chen,
+N. Pitta and
+<a href="https://people.eecs.berkeley.edu/~sseshia/">S. A. Seshia</a>
+</div>
+</div>
+<div class="paper-icons">
+<a href="https://openreview.net/pdf?id=H93znKjqdf" alt="[PDF] "><img class="paper-icon" src="images/paper.png"/><img class="paper-icon-dark" src="images/paper-dark.png"/></a>
+</div>
+</div>
+</div><div class="paper">
+<div class="paper-flex">
+<div class="paper-conference">
+<a href="https://icml.cc/Conferences/2023">ICML '23</a>
+</div>
+<div class="paper-details">
+<div class="paper-title">
+Who Needs to Know? Minimal Knowledge for Optimal Coordination
+</div>
+<div class="paper-authors">
+<a href="https://niklaslauffer.github.io/">N. Lauffer</a>,
+A. Shah,
+<a href="https://micahcarroll.github.io/">M. Carroll</a>,
+<a href="https://www.michaeldennis.ai/">M. Dennis</a> and
+<a href="https://people.eecs.berkeley.edu/~russell/">S. Russell</a>
+</div>
+</div>
+<div class="paper-icons">
+<a href="https://proceedings.mlr.press/v202/lauffer23a/lauffer23a.pdf" alt="[PDF] "><img class="paper-icon" src="images/paper.png"/><img class="paper-icon-dark" src="images/paper-dark.png"/></a><a href="https://dblp.org/rec/conf/icml/LaufferSCD023.html?view=bibtex" alt="[Bibtex] "><img class="paper-icon" src="images/bibtex.png"/><img class="paper-icon-dark" src="images/bibtex-dark.png"/></a>
+</div>
+</div>
+</div><div class="paper">
+<div class="paper-flex">
+<div class="paper-conference">
+<div class="bigscreen"><small><a href="https://icml.cc/virtual/2023/workshop/21495">ICMLw '23</a></small></div><div class="smallscreen"><a href="https://icml.cc/virtual/2023/workshop/21495">ICMLw '23</a></div>
+</div>
+<div class="paper-details">
+<div class="paper-title">
+Learning Formal Specifications from Membership and Preference Queries
+</div>
+<div class="paper-authors">
+A. Shah,
+<a href="https://mjvc.me/">M. Vazquez-Chanlatte</a>,
+<a href="https://sjunges.github.io/">S. Junges</a> and
+<a href="https://people.eecs.berkeley.edu/~sseshia/">S. A. Seshia</a>
+</div>
+</div>
+<div class="paper-icons">
+<a href="https://arxiv.org/pdf/2307.10434" alt="[PDF] "><img class="paper-icon" src="images/paper.png"/><img class="paper-icon-dark" src="images/paper-dark.png"/></a><a href="https://dblp.org/rec/journals/corr/abs-2307-10434.html?view=bibtex" alt="[Bibtex] "><img class="paper-icon" src="images/bibtex.png"/><img class="paper-icon-dark" src="images/bibtex-dark.png"/></a>
+</div>
+</div>
+</div><div class="paper">
+<div class="paper-flex">
+<div class="paper-conference">
+<div class="bigscreen"><small><a href="https://fmcad.org/FMCAD22/">FMCAD '22</a></small></div><div class="smallscreen"><a href="https://fmcad.org/FMCAD22/">FMCAD '22</a></div>
+</div>
+<div class="paper-details">
+<div class="paper-title">
+Learning Deterministic Finite Automata Decompositions <br class="bigscreen"> from Examples and Demonstrations
+</div>
+<div class="paper-authors">
+<a href="https://niklaslauffer.github.io/">N. Lauffer</a>,
+<a href="https://beyazit-x.github.io/">B. Yalcinkaya</a>,
+<a href="https://mjvc.me/">M. Vazquez-Chanlatte</a>,
+A. Shah and
+<a href="https://people.eecs.berkeley.edu/~sseshia/">S. A. Seshia</a>
+</div>
+</div>
+<div class="paper-icons">
+<a href="https://arxiv.org/abs/2205.13013" alt="[PDF] "><img class="paper-icon" src="images/paper.png"/><img class="paper-icon-dark" src="images/paper-dark.png"/></a><a href="https://dblp.org/rec/journals/corr/abs-2205-13013.html?view=bibtex" alt="[Bibtex] "><img class="paper-icon" src="images/bibtex.png"/><img class="paper-icon-dark" src="images/bibtex-dark.png"/></a>
+</div>
+</div>
+</div><div class="paper">
+<div class="paper-flex">
+<div class="paper-conference">
+<a href="https://ieeexplore.ieee.org/xpl/conhome/9921415/proceeding">ITSC '22</a>
+</div>
+<div class="paper-details">
+<div class="paper-title">
+Modeling and Influencing Human Attentiveness <br class="bigscreen"> in Autonomy-to-Human Perception Hand-offs
+</div>
+<div class="paper-authors">
+Y. Vardhan Pant,
+B. T. Kumaravel,
+A. Shah,
+E. Kraemer,
+<a href="https://mjvc.me/">M. Vazquez-Chanlatte</a>,
+<br class="bigscreen">K. Kulkarni,
+B. Hartmann and
+<a href="https://people.eecs.berkeley.edu/~sseshia/">S. A. Seshia</a>
+</div>
+</div>
+<div class="paper-icons">
+<a href="https://people.eecs.berkeley.edu/~bjoern/papers/pant-handoff-itsc2022.pdf" alt="[PDF] "><img class="paper-icon" src="images/paper.png"/><img class="paper-icon-dark" src="images/paper-dark.png"/></a><a href="https://dblp.org/rec/conf/itsc/PantKSKVKHS22.html?view=bibtex" alt="[Bibtex] "><img class="paper-icon" src="images/bibtex.png"/><img class="paper-icon-dark" src="images/bibtex-dark.png"/></a>
+</div>
+</div>
+</div><div class="paper">
+<div class="paper-flex">
+<div class="paper-conference">
+<div class="bigscreen"><small><a href="https://neurips.cc/Conferences/2020">NeurIPS '20</a></small></div><div class="smallscreen"><a href="https://neurips.cc/Conferences/2020">NeurIPS '20</a></div>
+</div>
+<div class="paper-details">
+<div class="paper-title">
+Learning Differentiable Programs with Admissible Neural Heuristics
+</div>
+<div class="paper-authors">
+A. Shah,
+<a href="https://ezhan94.github.io/">E. Zhan</a>,
+<a href="https://jenjsun.com/">J. J. Sun</a>,
+<a href="https://averma8053.github.io/">A. Verma</a>,
+<a href="http://www.yisongyue.com/">Y. Yue</a> and
+<a href="https://www.cs.utexas.edu/~swarat/">S. Chaudhuri</a>
+</div>
+</div>
+<div class="paper-icons">
+<a href="https://proceedings.neurips.cc/paper/2020/file/342285bb2a8cadef22f667eeb6a63732-Paper.pdf" alt="[PDF] "><img class="paper-icon" src="images/paper.png"/><img class="paper-icon-dark" src="images/paper-dark.png"/></a><a href="https://dblp.org/rec/conf/nips/ShahZSVYC20.html?view=bibtex" alt="[Bibtex] "><img class="paper-icon" src="images/bibtex.png"/><img class="paper-icon-dark" src="images/bibtex-dark.png"/></a>
+</div>
+</div>
+</div><div class="paper">
+<div class="paper-flex">
+<div class="paper-conference">
+<a href="https://iclr.cc/Conferences/2019">ICLR '19</a>
+</div>
+<div class="paper-details">
+<div class="paper-title">
+Representing Formal Languages: A Comparison Between Finite <br class="bigscreen"> Automata and Recurrent Neural Networks
+</div>
+<div class="paper-authors">
+<a href="https://scholar.google.com/citations?user=fWLQzMAAAAAJ&hl=en">J. J. Michalenko</a>,
+A. Shah,
+<a href="https://averma8053.github.io/">A. Verma</a>,
+<a href="https://www.cs.utexas.edu/~swarat/">S. Chaudhuri</a> and
+A. B. Patel
+</div>
+</div>
+<div class="paper-icons">
+<a href="https://par.nsf.gov/servlets/purl/10097994" alt="[PDF] "><img class="paper-icon" src="images/paper.png"/><img class="paper-icon-dark" src="images/paper-dark.png"/></a><a href="https://dblp.org/rec/conf/iclr/MichalenkoSVBCP19.html?view=bibtex" alt="[Bibtex] "><img class="paper-icon" src="images/bibtex.png"/><img class="paper-icon-dark" src="images/bibtex-dark.png"/></a>
+</div>
+</div>
+</div><h2 id="Preprints and Technical Reportspublications">Preprints and Technical Reports</h2><div class="paper">
+<div class="paper-flex">
+<div class="paper-conference">
+<div class="bigscreen"><small>arXiv '24</small></div><div class="smallscreen">arXiv '24</div>
+</div>
+<div class="paper-details">
+<div class="paper-title">
+LTL-Constrained Policy Optimization with Cycle Experience Replay
+</div>
+<div class="paper-authors">
+A. Shah,
+<a href="https://www.clvoloshin.com/">C. Voloshin</a>,
+<a href="https://chenxi-yang.github.io/">C. Yang</a>,
+<a href="https://averma8053.github.io/">A. Verma</a>,
+<a href="https://www.cs.utexas.edu/~swarat/">S. Chaudhuri</a> and
+<a href="https://people.eecs.berkeley.edu/~sseshia/">S. A. Seshia</a>
+</div>
+</div>
+<div class="paper-icons">
+<a href="https://arxiv.org/abs/2404.11578" alt="[PDF] "><img class="paper-icon" src="images/paper.png"/><img class="paper-icon-dark" src="images/paper-dark.png"/></a><a href="https://dblp.org/rec/journals/corr/abs-2404-11578.html?view=bibtex" alt="[Bibtex] "><img class="paper-icon" src="images/bibtex.png"/><img class="paper-icon-dark" src="images/bibtex-dark.png"/></a>
+</div>
+</div>
+</div><div class="paper">
+<div class="paper-flex">
+<div class="paper-conference">
+<div class="bigscreen"><small>arXiv '23</small></div><div class="smallscreen">arXiv '23</div>
+</div>
+<div class="paper-details">
+<div class="paper-title">
+Specification-Guided Data Aggregation for Semantically <br class="bigscreen"> Aware Imitation Learning
+</div>
+<div class="paper-authors">
+A. Shah,
+<a href="https://jadecastro.github.io/">J. DeCastro</a>,
+<a href="https://people.eecs.berkeley.edu/~russell/">J. Gideon</a>,
+<a href="https://beyazit-x.github.io/">B. Yalcinkaya</a>,
+<a href="https://people.csail.mit.edu/rosman/">G. Rosman</a> and
+<a href="https://people.eecs.berkeley.edu/~sseshia/">S. A. Seshia</a>
+</div>
+</div>
+<div class="paper-icons">
+<a href="https://arxiv.org/pdf/2303.17010" alt="[PDF] "><img class="paper-icon" src="images/paper.png"/><img class="paper-icon-dark" src="images/paper-dark.png"/></a><a href="https://dblp.org/rec/journals/corr/abs-2303-17010.html?view=bibtex" alt="[Bibtex] "><img class="paper-icon" src="images/bibtex.png"/><img class="paper-icon-dark" src="images/bibtex-dark.png"/></a>
+</div>
+</div>
+</div><div class="paper">
+<div class="paper-flex">
+<div class="paper-conference">
+<div class="bigscreen"><small>arXiv '20</small></div><div class="smallscreen">arXiv '20</div>
+</div>
+<div class="paper-details">
+<div class="paper-title">
+Demonstration Informed Specification Search
+</div>
+<div class="paper-authors">
+<a href="https://mjvc.me/">M. Vazquez-Chanlatte</a>,
+A. Shah,
+G. Lederman and
+<a href="https://people.eecs.berkeley.edu/~sseshia/">S. A. Seshia</a>
+</div>
+</div>
+<div class="paper-icons">
+<a href="https://arxiv.org/pdf/2112.10807" alt="[PDF] "><img class="paper-icon" src="images/paper.png"/><img class="paper-icon-dark" src="images/paper-dark.png"/></a>
+</div>
+</div>
+</div><div class="paper">
+<div class="paper-flex">
+<div class="paper-conference">
+<div class="bigscreen"><small>Rice Thesis '20</small></div><div class="smallscreen">Rice Thesis '20</div>
+</div>
+<div class="paper-details">
+<div class="paper-title">
+Differentiable Program Learning with an Admissible Neural Heuristic
+</div>
+<div class="paper-authors">
+A. Shah
+</div>
+</div>
+<div class="paper-icons">
+<a href="https://repository.rice.edu/server/api/core/bitstreams/b4617ba7-95d7-449e-a4c6-1a613f05296b/content" alt="[PDF] "><img class="paper-icon" src="images/paper.png"/><img class="paper-icon-dark" src="images/paper-dark.png"/></a>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+
+<footer>
+    <p>Website template from my html king <a href="https://federicoaureliano.github.io/">Federico Mora</a></p>
+</footer></body>
+</html>

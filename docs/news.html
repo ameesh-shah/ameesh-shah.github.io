@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ameesh Shah</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Ameesh's personal website. Ph.D. Student at UC Berkeley researching at the intersection of formal methods and machine learning.">
+    <meta name="author" content="Ameesh Shah">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="light.css" id="theme-link">
+    <link rel="shortcut icon" type="image/png" href="./images/lethimcook.png" />
+    
+</head>
+
+<body>
+<header><div id="scroller"></div>
+<label class="switch-mode">
+    <input type="checkbox" id="mode">
+    <span class="slider round"></span>
+</label>
+<script>window.onscroll = function() {scroller()};
+function scroller() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  // scrolled should be between 0 and 100
+  scrolled = Math.min(100, Math.max(0, scrolled));
+  document.getElementById("scroller").style.width = scrolled + "%";
+}</script>
+<script>const btn = document.querySelector(".switch-mode");
+const theme = document.querySelector("#theme-link");
+
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    theme.href = "dark.css";
+    document.getElementById("mode").checked = true;
+}
+
+btn.addEventListener("change", function() {
+  // Swap out the URL for the different stylesheets
+  if (document.getElementById("mode").checked) {
+    theme.href = "dark.css";
+  } else {
+    theme.href = "light.css";
+  }
+});</script>
+</header>
+<div class="content">
+<div class="section">
+<h1>News <span class="more"><a href="./index.html">Ameesh Shah</a></span></h1>
+<div class="hbar"></div>
+<div id="news">
+<div class="news-item">
+<div class="news-left">
+12/2024
+</div>
+<div class="news-right">
+I am co-organizing an <a href="https://verifai-workshop.github.io/">ICLR Workshop</a> on bridging formal (and semi-formal) verification techniques and scale-driven foundation models!
+</div>
+</div><div class="news-item">
+<div class="news-left">
+11/2024
+</div>
+<div class="news-right">
+I completed my Qualifying Exams and advanced to Candidacy!
+</div>
+</div><div class="news-item">
+<div class="news-left">
+09/2024
+</div>
+<div class="news-right">
+I presented our group's work at the <a href="https://sam.gov/opp/0399474725314fd58f34bc29849ce305/view/">DARPA TIAMAT</a> meeting in Indianapolis, Indiana.
+</div>
+</div><div class="news-item">
+<div class="news-left">
+02/2024
+</div>
+<div class="news-right">
+I presented my work on LTL-guided Reinforcement Learning at the <a href="https://www.darpa.mil/research/programs/assured-neuro-symbolic-learning-and-reasoning">ANSR Seminar</a>.
+</div>
+</div><div class="news-item">
+<div class="news-left">
+08/2023
+</div>
+<div class="news-right">
+I attended the <a href="https://afresearchlab.com/events/ndseg-fellowship-conference-2023/">NDSEG Conference</a> in San Antonio, Texas.
+</div>
+</div><div class="news-item">
+<div class="news-left">
+07/2023
+</div>
+<div class="news-right">
+I attended ICML in Honolulu to present our works on Multi-Agent RL and active learning for formal specifications!
+</div>
+</div></div>
+</div>
+</div>
+
+<footer>
+    <p>Website template from my html king <a href="https://federicoaureliano.github.io/">Federico Mora</a></p>
+</footer></body>
+</html>
