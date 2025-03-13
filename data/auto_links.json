@@ -1,8 +1,4 @@
 {
-    "Mount Allison University": "https://en.wikipedia.org/wiki/Mount_Allison_University",
-    "University of Toronto": "https://en.wikipedia.org/wiki/University_of_Toronto", 
-    "UC Berkeley": "https://en.wikipedia.org/wiki/University_of_California,_Berkeley",
-
     "Swarat Chaudhuri": "https://www.cs.utexas.edu/~swarat/",
     "Joshua J. Michalenko": "https://scholar.google.com/citations?user=fWLQzMAAAAAJ&hl=en",
     "Jennifer J. Sun": "https://jenjsun.com/",
@@ -20,7 +16,10 @@
     "John Gideon": "https://people.eecs.berkeley.edu/~russell/",
     "Jonathan DeCastro": "https://jadecastro.github.io/",
     "Guy Rosman":  "https://people.csail.mit.edu/rosman/",
+    "Yash Vardhan Pant": "https://yashpant.github.io/",
+    "Bala T. Kumaravel": "https://www.tkbala.com/",
     "Abhinav Verma":  "https://averma8053.github.io/",
+    "Bjoern Hartmann": "https://people.eecs.berkeley.edu/~bjoern/",
     "Sanjit A. Seshia": "https://people.eecs.berkeley.edu/~sseshia/",
     
     "Berkeley Programming Systems Seminar": "https://ucbps.github.io/seminar.html",
@@ -42,5 +41,5 @@
     "FMCAD '22" : "https://fmcad.org/FMCAD22/",
     "ITSC '22" : "https://ieeexplore.ieee.org/xpl/conhome/9921415/proceeding",
     "NeurIPS '20" : "https://neurips.cc/Conferences/2020",
-    "formal methods": "https://en.wikipedia.org/wiki/Formal_methods"
+    "TMLR '25": "https://jmlr.org/tmlr/papers/"
 }
