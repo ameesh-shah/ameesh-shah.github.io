@@ -14,9 +14,9 @@
 
     "dark": {
         "primary-color": "#fffafc",
-        "secondary-color": "#202a3c",
+        "secondary-color": "#352638",
         "tertiary-color": "#47a2eb",
-        "quaternary-color": "#f02405",
+        "quaternary-color": "#9c45ee",
         "divider-width": "1px",
         "underline-width": "2px",
         "paper-img": "images/paper-dark.png",

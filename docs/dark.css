@@ -39,7 +39,7 @@ h2 {
 }
 
 .headshot {
-    border: 1px solid #202a3c;
+    border: 1px solid #352638;
 }
 
 .announcement {
@@ -47,6 +47,6 @@ h2 {
 }
 
 .mentee {
-    text-decoration-color: #f02405;
+    text-decoration-color: #e8f1f4;
     text-decoration-thickness: 2px;
 }
