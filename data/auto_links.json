@@ -41,5 +41,6 @@
     "FMCAD '22" : "https://fmcad.org/FMCAD22/",
     "ITSC '22" : "https://ieeexplore.ieee.org/xpl/conhome/9921415/proceeding",
     "NeurIPS '20" : "https://neurips.cc/Conferences/2020",
-    "TMLR '25": "https://jmlr.org/tmlr/papers/"
+    "TMLR '25": "https://jmlr.org/tmlr/papers/",
+    "NeuS '25": "https://neus-2025.github.io/"
 }

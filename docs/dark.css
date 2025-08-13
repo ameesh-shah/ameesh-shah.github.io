@@ -1,9 +1,9 @@
 header {
-    background-color: #3b2a3e;
+    background-color: #47a2eb;
 }
 
 #scroller {
-    background-color: #e8f1f4;
+    background-color: #9c45ee;
 }
 
 body {
@@ -47,6 +47,6 @@ h2 {
 }
 
 .mentee {
-    text-decoration-color: #e8f1f4;
+    text-decoration-color: #9c45ee;
     text-decoration-thickness: 2px;
 }

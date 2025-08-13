@@ -1,5 +1,13 @@
 [
     {
+        "date": "05/2025",
+        "text": "I attended AAMAS in Detroit to present my work on multi-agent RL for symbolic tasks!"
+    },
+    {
+        "date": "05/2025",
+        "text": "<a href=\"https://leccap.engin.umich.edu/leccap/player/r/ZlWje2\">I presented on my work</a> in neurosymbolic reinforcement learning at the University of Michigan Controls Systems Seminar!"
+    },
+    {
         "date": "12/2024",
         "text": "I am co-organizing an <a href=\"https://verifai-workshop.github.io/\">ICLR Workshop</a> on bridging formal (and semi-formal) verification techniques and scale-driven foundation models!"
     },
@@ -22,6 +30,6 @@
     },
     {
         "date": "07/2023",
-        "text": "I attended ICML in Honolulu to present our works on Multi-Agent RL and active learning for formal specifications!"
+        "text": "I attended ICML in Honolulu to present our works on multi-agent RL and active learning for formal specifications!"
     }
 ]
